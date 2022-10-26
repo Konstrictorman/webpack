@@ -5,7 +5,7 @@ class App extends Component {
 	render() {
 		return (
 			<div>
-				<Home/>
+				<Home init={75}/>
 			</div>
 		);
 	}

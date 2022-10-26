@@ -20,18 +20,14 @@ let webpackConfig = {
 		],
 	},   
 
-   plugins: [
-		new HtmlWebpackPlugin({
-			template: "./src/index.html",
-		}),
-	],
+
 };
 
 if (process.env.NODE_ENV === "development") {
    console.log("Setting dev options")
-   webpackConfig.debug = true;
-   webpackConfig.devtool = "sourcemap";
-   webpackConfig.output.pathinfo = true;
+	webpackConfig.debug = true;
+	webpackConfig.devtool = "sourcemap";
+	webpackConfig.output.pathinfo = true;
 }
 
 if (process.env.NODE_ENV === "production") {
@@ -52,4 +48,3 @@ if (process.env.NODE_ENV === "production") {
 }
 
 module.exports = webpackConfig;
-

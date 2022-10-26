@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+[
+  <h1>
+    Webpack App !!
+  </h1>,
+  <button
+    onClick={[Function]}
+  >
+    Add
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+    Remove
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>,
+  "50",
+]
+`;
+
+exports[`Pruebas <Home/> should return <Home> correctamente 1`] = `
+[
+  <h1>
+    Webpack App !!
+  </h1>,
+  <button
+    onClick={[Function]}
+  >
+    Add
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+    Remove
+  </button>,
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>,
+]
+`;
